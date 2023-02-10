@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио Чирцовой Алены</title>
+    <link rel="stylesheet" href="./css/main.css">    
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/img/favicons/site.webmanifest">
+    <link rel="mask-icon" href="/img/favicons/safari-pinned-tab.svg" color="#ff6fff">
+    <link rel="shortcut icon" href="/img/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#9f00a7">
+    <meta name="msapplication-config" content="/img/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">    
+      
+</head>
+<body>    
+    <header class="header">
+        <div class="container">                      
+            <div class="header-row">
+                <h1 class="logo">ПОРТФОЛИО</h1>
+                <ul class="nav">
+                    <li class="nav__item"><a href="./index.html" class="nav__link">Главная</a></li>
+                    <li class="nav__item"><a href="./contacts.html" class="nav__link">Контакты</a></li>
+                    <li class="nav__item"><a href="./document/cv.pdf" target="_blank" download class="btn">Скачать резюме</a></li>
+                </ul>
+            </div>            
+        </div>            
+    </header>   
+
+    <main class="portfolio">
+        <div class="cursor"></div>                            
+        <div class="container">
+            <h2 class="section-title">Анимации и статичные баннеры</h2>
+            <ul class="projects">
+                <li class="project">                    
+                    <a href="./project-one.html" class="project__link">
+                        <div class="project__wrapper">
+                            <img src="./img/projects/img-1.jpg" class="project__img" alt="Project-1">
+                        </div>
+                    </a>                
+                </li>
+
+                <li class="project">
+                    <a href="./project-two.html" class="project__link">
+                        <div class="project__wrapper">                            
+                            <picture class="project__img">
+                                <source srcset="./img/projects/img-2-width-264.jpg" media="(max-width: 650px)">                               
+                                <img class="img-card" src="./img/projects/img-2.jpg" alt="Project-2">                                   
+                            </picture>   
+                        </div>
+                    </a>                
+                </li>
+
+                <li class="project">
+                    <a href="./project-three-four.html" class="project__link">
+                        <div class="project__wrapper">
+                            <img src="./img/projects/img-3.jpg" class="project__img" alt="Project-3">
+                            <img src="./img/projects/img-4.jpg" class="project__img" alt="Project-4">
+                        </div>
+                    </a>                
+                </li>
+
+                <li class="project">
+                    <a href="./project-five.html" class="project__link">
+                        <div class="project__wrapper">
+                            <picture class="project__img">
+                                <source srcset="./img/projects/img-5-width-264.jpg" media="(max-width: 650px)">                               
+                                <img class="img-card" src="./img/projects/img-5.jpg" alt="Project-5">                                   
+                            </picture>                              
+                        </div>
+                    </a>                
+                </li>
+
+                <li class="project">
+                    <a href="./project-six.html" class="project__link" >
+                        <div class="project__wrapper">
+                            <img src="./img/projects/img-6.jpg" class="project__img" alt="Project-6">                            
+                        </div>
+                    </a>                
+                </li>
+                
+                <li class="project">
+                    <a href="./project-seven.html" class="project__link">
+                        <div class="project__wrapper">
+                            <img src="./img/projects/img-7.jpg" class="project__img" alt="Project-7">                            
+                        </div>
+                    </a>                
+                </li>
+            </ul>
+
+            <h2 class="section-title section-title--presentation">Полиграфия, наружная реклама, презентации</h2>
+            <ul class="projects projects--presentation">
+                <li class="project">
+                    <a href="https://drive.google.com/file/d/1tEDE9-amZdoCIV8J_AewLctadr_X_NVd/view?usp=share_link" download="" class="project__link" target="_blank">
+                        <div class="project__wrapper">
+                            <img src="./img/projects/img-8.jpg" class="project__img" alt="Project-8">
+                        </div>
+                    </a>                
+                </li>
+
+                <li class="project">
+                    <a href="https://drive.google.com/file/d/1uAtyk_5vlm3GPB_uSrXBx9SB0t6-D7xd/view?usp=sharing" download class="project__link" target="_blank">
+                        <div class="project__wrapper">
+                            <img src="./img/projects/img-9.jpg" class="project__img" alt="Project-9">
+                        </div>
+                    </a>                
+                </li>                
+            </ul>
+        </div>        
+    </main>       
+
+    <footer class="footer">
+        <p>©Copyright. 2023. Новокузнецк. Чирцова Алена</p>
+    </footer>   
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>       
+    <script src="./js/script.js"> </script>
+</body>
+</html>
