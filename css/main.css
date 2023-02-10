@@ -314,9 +314,9 @@ html, body {
     object-position: center center;         
 }
 
-video {
-    width: 500px;
-    height: 500px;
+.video {
+    width: 400px;
+    height: 400px;
 }
 
 .desc { 
@@ -328,7 +328,7 @@ video {
     color: var(--dark-grey);
 }
 
-.project-desc__wrapper p + p {
+.desc-2 {
     margin-top: 2em;
     line-height: 1.4;
     font-size: 16px;
@@ -507,19 +507,16 @@ video {
 
     .horizontal-wrapper {
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
     }    
 
     .horizontal-wrapper img {
         max-width: 500px;
         margin-left: auto;
         margin-right: auto;
-    } 
-
-    .horizontal-wrapper video {
-        max-width: 500px;
-        margin-left: auto;
-        margin-right: auto;
-    }
+    }     
 
     .project-title {        
         text-align: center;
@@ -529,9 +526,16 @@ video {
         max-width: 500px;          
     }
 
-    .project-desc__wrapper p + p {
+    .video {
+        display: flex;
+        justify-content: center;       
+    }
+
+    .desc-2 {
+        display: flex;
         max-width: 500px;
         text-align: center;
+        justify-content: center;
     }
 
     .desc {
@@ -611,11 +615,7 @@ video {
     
     .project:nth-child(3) {
         order: 0;
-    }
-
-    .projects--presentation .project:nth-child(3) {
-        order: 0;
-    }
+    }   
 
     .projects--presentation .project:nth-child(2) {
         width: 280px;
@@ -635,8 +635,8 @@ video {
     }  
     
     .horizontal-wrapper, .vertical-wrapper {
-        padding: 15px;
-        border: none;
+        padding: 15px 0;
+        border: none;        
     }
 
     .btn--back {
@@ -650,6 +650,11 @@ video {
         margin-bottom: 15px;
         text-align: center;
     }   
+
+    .video {        
+        width: 300px;
+        height: 300px;        
+    }
 
     .desc {
         font-size: 16px;
@@ -672,14 +677,3 @@ video {
         margin-bottom: 35px;
     }        
 }
-
-
-
-
-
-
-
-
-
-
-
